@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f669f0e-ff3d-482d-a3f0-968143a56d06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Resource Management/Exp/ExpMain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Resource Management/Game Currency/GameCurrencyMain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Resource Management/Game Items/GameItemsMain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Resource Management/Game Mode/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Resource Management/Game Mode/subcomponents-twoTabs/FormGameMode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Resource Management/Game Mode/subcomponents-twoTabs/ShoeRowGameMode/ShoeGameRowMode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Resource Management/Game Mode/subcomponents-twoTabs/ShowGameMode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Resource Management/LootBox/LootBoxMain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Resource Management/Shop/ShopMain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Resource Management/index.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-855429347">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gif" value="2" />
+          <entry key="js" value="155" />
+          <entry key="json" value="1" />
+          <entry key="scss" value="3" />
+          <entry key="ts" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="2" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="155" />
+          <entry key="SCSS" value="3" />
+          <entry key="TypeScript" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="ESLintLanguageService" value="1" />
+          <entry key="TypeScriptServerServiceImpl" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="960" />
+          <entry key="json" value="2" />
+          <entry key="scss" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="960" />
+          <entry key="SCSS" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/Resource Management/Shop/ShopMain.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#500#975#0" expanded="true" />
+                <element signature="e#558#959#0" expanded="true" />
+                <element signature="e#657#773#0" expanded="true" />
+                <element signature="e#786#904#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/Resource Management/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+                <element signature="n#!!block;n#render#0;n#Index#0" expanded="true" />
+                <element signature="e#875#2324#0" expanded="true" />
+                <element signature="e#903#2299#0" expanded="true" />
+                <element signature="e#959#2276#0" expanded="true" />
+                <element signature="e#1033#2244#0" expanded="true" />
+                <element signature="e#1170#1345#0" expanded="true" />
+                <element signature="e#1374#1557#0" expanded="true" />
+                <element signature="e#1586#1761#0" expanded="true" />
+                <element signature="e#1790#1954#0" expanded="true" />
+                <element signature="e#1983#2156#0" expanded="true" />
+                <element signature="e#2292#2465#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/Resource Management/Game Items/GameItemsMain.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="119" lean-forward="true" selection-start-line="7" selection-start-column="119" selection-end-line="7" selection-end-column="119" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#470#946#0" expanded="true" />
+                <element signature="e#528#930#0" expanded="true" />
+                <element signature="e#627#744#0" expanded="true" />
+                <element signature="e#757#875#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/GameItem/subcomponentsTwoTabs/ShowGameItem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="547">
+              <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+                <element signature="n#!!block;n#componentDidMount#0;n#ShowGameItem#0" expanded="true" />
+                <element signature="e#509#591#0" expanded="true" />
+                <element signature="e#1388#1544#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/GameCurrency/subcomponentsTwoTabs/ShowGameCurrency.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="713">
+              <caret line="47" column="139" lean-forward="true" selection-start-line="47" selection-start-column="139" selection-end-line="47" selection-end-column="235" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+                <element signature="n#!!block;n#componentDidMount#0;n#ShowGameCurrency#0" expanded="true" />
+                <element signature="e#523#605#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/constants/menu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1242">
+              <caret line="111" selection-start-line="111" selection-end-line="149" selection-end-column="6" />
+              <folding>
+                <element signature="e#19#3900#0" expanded="true" />
+                <element signature="e#194#3894#0" expanded="true" />
+                <element signature="e#210#813#0" expanded="true" />
+                <element signature="e#367#799#0" expanded="true" />
+                <element signature="e#389#571#0" expanded="true" />
+                <element signature="e#593#777#0" expanded="true" />
+                <element signature="e#827#1442#0" expanded="true" />
+                <element signature="e#992#1428#0" expanded="true" />
+                <element signature="e#1014#1200#0" expanded="true" />
+                <element signature="e#1222#1410#0" expanded="true" />
+                <element signature="e#1456#2055#0" expanded="true" />
+                <element signature="e#1613#2041#0" expanded="true" />
+                <element signature="e#1635#1817#0" expanded="true" />
+                <element signature="e#1839#2023#0" expanded="true" />
+                <element signature="e#2059#2681#0" expanded="true" />
+                <element signature="e#2211#2667#0" expanded="true" />
+                <element signature="e#2233#2428#0" expanded="true" />
+                <element signature="e#2450#2649#0" expanded="true" />
+                <element signature="e#2695#3290#0" expanded="true" />
+                <element signature="e#2850#3276#0" expanded="true" />
+                <element signature="e#2872#3053#0" expanded="true" />
+                <element signature="e#3075#3258#0" expanded="true" />
+                <element signature="e#3304#3883#0" expanded="true" />
+                <element signature="e#3451#3869#0" expanded="true" />
+                <element signature="e#3473#3650#0" expanded="true" />
+                <element signature="e#3672#3851#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+                <element signature="n#!!block;n#render#0;n#App#0" expanded="true" />
+                <element signature="e#1401#2609#0" expanded="true" />
+                <element signature="e#1433#2596#0" expanded="true" />
+                <element signature="e#1557#2572#0" expanded="true" />
+                <element signature="e#1678#2544#0" expanded="true" />
+                <element signature="e#1742#2520#0" expanded="true" />
+                <element signature="e#1767#2496#0" expanded="true" />
+                <element signature="e#1935#2095#0" expanded="true" />
+                <element signature="e#2114#2264#0" expanded="true" />
+                <element signature="e#2283#2427#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/Resource Management/LootBox/LootBoxMain.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="14" lean-forward="true" selection-end-line="26" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#609#725#0" expanded="true" />
+                <element signature="e#738#856#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ColorSwitcher</find>
+      <find>ViewMain</find>
+      <find>card-img-top</find>
+      <find>liClasses</find>
+      <find>hoverImg</find>
+      <find>id</find>
+      <find>input._id</find>
+      <find>import * as Const from './../../../../../component/Const';</find>
+      <find>Token</find>
+      <find>loaderActive</find>
+      <find>admin</find>
+      <find>ht</find>
+      <find>Name</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/constants/defaultValues.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/const/index.js" />
+        <option value="$PROJECT_DIR$/src/component/RosourceManagement/GameCurrency/subcomponentsTwoTabs/FormGameCurrency.js" />
+        <option value="$PROJECT_DIR$/src/views/Resource Management/Game Mode/index.js" />
+        <option value="$PROJECT_DIR$/src/views/Resource Management/Game Currency/Index.js" />
+        <option value="$PROJECT_DIR$/src/views/Resource Management/Game Currency/GameCurrencyMain.js" />
+        <option value="$PROJECT_DIR$/src/views/Resource Management/Game Items/GameItemsMain.js" />
+        <option value="$PROJECT_DIR$/src/component/RosourceManagement/GameItem/subcomponentsTwoTabs/FormGameItem.js" />
+        <option value="$PROJECT_DIR$/src/views/Resource Management/Exp/ExpMain.js" />
+        <option value="$PROJECT_DIR$/src/component/Const.js" />
+        <option value="$PROJECT_DIR$/src/component/RosourceManagement/Actio exp/subcomponents/UpdateAcionsWithKeys.js" />
+        <option value="$PROJECT_DIR$/src/component/RosourceManagement/Actio exp/subcomponents/UpdateActionsForEachLevel.js" />
+        <option value="$PROJECT_DIR$/src/views/Resource Management/Game Mode/subcomponents-twoTabs/FormGameMode.js" />
+        <option value="$PROJECT_DIR$/src/views/Resource Management/Game Mode/subcomponents-twoTabs/ShowGameMode.js" />
+        <option value="$PROJECT_DIR$/src/views/Resource Management/Game Mode/subcomponents-twoTabs/ShoeRowGameMode/ShoeGameRowMode.js" />
+        <option value="$PROJECT_DIR$/src/component/RosourceManagement/GameItem/subcomponentsTwoTabs/RowShowGameItem/RowShowGameItem.js" />
+        <option value="$PROJECT_DIR$/src/views/Resource Management/LootBox/LootBoxMain.js" />
+        <option value="$PROJECT_DIR$/src/component/RosourceManagement/LOOTBOX/SubComponents/ShowLootBox.js" />
+        <option value="$PROJECT_DIR$/src/component/RosourceManagement/LOOTBOX/SubComponents/RowShowLootBox/ShowEachItem/ShowEachItem.js" />
+        <option value="$PROJECT_DIR$/src/component/RosourceManagement/LOOTBOX/SubComponents/RowShowLootBox/ShowEachItem/ShowLootBoxInItem.js" />
+        <option value="$PROJECT_DIR$/src/assets/css/sass/_gogo.style.scss" />
+        <option value="$PROJECT_DIR$/src/component/RosourceManagement/LOOTBOX/SubComponents/FromAddLootBox.js" />
+        <option value="$PROJECT_DIR$/src/component/RosourceManagement/LOOTBOX/SubComponents/RowShowLootBox/ShowEachItem/subcomponent/AddItemInLootBox.js" />
+        <option value="$PROJECT_DIR$/src/component/RosourceManagement/LOOTBOX/SubComponents/RowShowLootBox/RowShowLootBox.js" />
+        <option value="$PROJECT_DIR$/src/views/Resource Management/Shop/ShopMain.js" />
+        <option value="$PROJECT_DIR$/src/views/Resource Management/index.js" />
+        <option value="$PROJECT_DIR$/src/views/index.js" />
+        <option value="$PROJECT_DIR$/src/constants/menu.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/component/RosourceManagement/GameCurrency/subcomponentsTwoTabs/ShowGameCurrency.js" />
+        <option value="$PROJECT_DIR$/src/component/RosourceManagement/GameItem/subcomponentsTwoTabs/ShowGameItem.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="madDaysPanel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madDaysPanel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madDaysPanel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madDaysPanel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madDaysPanel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madDaysPanel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madDaysPanel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madDaysPanel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madDaysPanel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madDaysPanel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madDaysPanel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madDaysPanel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madDaysPanel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madDaysPanel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="RosourceManagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madDaysPanel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madDaysPanel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="const" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madDaysPanel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madDaysPanel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madDaysPanel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madDaysPanel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madDaysPanel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madDaysPanel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madDaysPanel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madDaysPanel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madDaysPanel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madDaysPanel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Resource Management" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="D:\Project\HandMade\Mad-Days-Admin_Panel\TicketToHiven\madDaysPanel\node_modules\eslint" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2018.2.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\HandMade\Mad-Days-Admin_Panel\TicketToHiven\madDaysPanel\src\views\Resource Management\Game Mode" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f669f0e-ff3d-482d-a3f0-968143a56d06" name="Default Changelist" comment="" />
+      <created>1569216604792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569216604792</updated>
+      <workItem from="1569216608312" duration="22646000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22646000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="npm" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19669509" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32930845" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32930845" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="TypeScript" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32930845" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Nativescript Palette" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/components/common/ColorSwitcher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="86" column="16" lean-forward="true" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#2754#3317#0" expanded="true" />
+            <element signature="e#2899#3284#0" expanded="true" />
+            <element signature="e#3341#4135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/GameMode/GameMode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/GameMode/TabCardGameMode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/GameMode/subcomponents-twoTabs/ShowGameMode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/app/blank-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#395#602#0" expanded="true" />
+            <element signature="e#415#583#0" expanded="true" />
+            <element signature="e#635#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constants/defaultValues.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#262#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/lib/react-app.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/app/gogo/start.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#421#584#0" expanded="true" />
+            <element signature="e#616#766#0" expanded="true" />
+            <element signature="e#636#747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/const/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/app/gogo/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/app/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#615#1378#0" expanded="true" />
+            <element signature="e#635#1359#0" expanded="true" />
+            <element signature="e#681#1344#0" expanded="true" />
+            <element signature="e#743#1322#0" expanded="true" />
+            <element signature="e#847#967#0" expanded="true" />
+            <element signature="e#982#1115#0" expanded="true" />
+            <element signature="e#1130#1261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Resource Management/Game Currency/Index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="342" column="10" selection-start-line="342" selection-start-column="10" selection-end-line="342" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/Actio exp/ActionExp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#172#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/Actio exp/TabCardActionExp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/Actio exp/subcomponents/ShowXpLevelPerRange.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#ShowXpLevelPerRange#0" expanded="true" />
+            <element signature="e#417#689#0" expanded="true" />
+            <element signature="e#836#978#0" expanded="true" />
+            <element signature="e#915#967#0" expanded="true" />
+            <element signature="e#1715#1906#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/assets/6.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/axios/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/Actio exp/subcomponents/UpdateActionsForEachLevel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="86" column="22" lean-forward="true" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#UpdateActionsForEachLevel#0" expanded="true" />
+            <element signature="e#1524#1560#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#UpdateActionsForEachLevel#0" expanded="true" />
+            <element signature="e#2004#2086#0" expanded="true" />
+            <element signature="e#2382#2771#0" expanded="true" />
+            <element signature="e#2844#2894#0" expanded="true" />
+            <element signature="e#3022#3104#0" expanded="true" />
+            <element signature="e#4164#4566#0" expanded="true" />
+            <element signature="e#3858#3908#0" expanded="true" />
+            <element signature="n#!!block;n#render#0;n#UpdateActionsForEachLevel#0" expanded="true" />
+            <element signature="e#4820#13002#0" expanded="true" />
+            <element signature="e#4674#13734#0" expanded="true" />
+            <element signature="e#4725#13703#0" expanded="true" />
+            <element signature="e#4774#13666#0" expanded="true" />
+            <element signature="e#4817#13626#0" expanded="true" />
+            <element signature="e#4868#5027#0" expanded="true" />
+            <element signature="e#5069#13578#0" expanded="true" />
+            <element signature="e#5136#5517#0" expanded="true" />
+            <element signature="e#6420#13481#0" expanded="true" />
+            <element signature="e#6523#8193#0" expanded="true" />
+            <element signature="e#6615#8134#0" expanded="true" />
+            <element signature="e#6733#6928#0" expanded="true" />
+            <element signature="e#6989#7609#0" expanded="true" />
+            <element signature="e#7789#7995#0" expanded="true" />
+            <element signature="e#8247#10658#0" expanded="true" />
+            <element signature="e#8335#9434#0" expanded="true" />
+            <element signature="e#8431#9371#0" expanded="true" />
+            <element signature="e#8564#8737#0" expanded="true" />
+            <element signature="e#9023#9224#0" expanded="true" />
+            <element signature="e#9491#10599#0" expanded="true" />
+            <element signature="e#9587#10536#0" expanded="true" />
+            <element signature="e#9720#9895#0" expanded="true" />
+            <element signature="e#10186#10389#0" expanded="true" />
+            <element signature="e#10712#13181#0" expanded="true" />
+            <element signature="e#10800#11958#0" expanded="true" />
+            <element signature="e#10896#11895#0" expanded="true" />
+            <element signature="e#11029#11214#0" expanded="true" />
+            <element signature="e#11535#11748#0" expanded="true" />
+            <element signature="e#12015#13122#0" expanded="true" />
+            <element signature="e#12111#13059#0" expanded="true" />
+            <element signature="e#12244#12419#0" expanded="true" />
+            <element signature="e#12709#12912#0" expanded="true" />
+            <element signature="e#13235#13425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Resource Management/Game Mode/subcomponents-twoTabs/ShoeRowGameMode/ShoeGameRowMode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <folding>
+            <element signature="e#223#408#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#ShoeGameRowMode#0" expanded="true" />
+            <element signature="e#1433#1472#0" expanded="true" />
+            <element signature="n#!!block;n#toggleTab#0;n#ShoeGameRowMode#0" expanded="true" />
+            <element signature="e#1812#3387#0" expanded="true" />
+            <element signature="e#1997#2079#0" expanded="true" />
+            <element signature="e#2258#3344#0" expanded="true" />
+            <element signature="n#!!block;n#handelHover#0;n#ShoeGameRowMode#0" expanded="true" />
+            <element signature="e#3443#3533#0" expanded="true" />
+            <element signature="e#3573#3635#0" expanded="true" />
+            <element signature="n#!!block;n#handelHoveOut#0;n#ShoeGameRowMode#0" expanded="true" />
+            <element signature="e#4169#4244#0" expanded="true" />
+            <element signature="n#!!block;n#render#0;n#ShoeGameRowMode#0" expanded="true" />
+            <element signature="e#4564#9466#0" expanded="true" />
+            <element signature="e#4593#9440#0" expanded="true" />
+            <element signature="e#4678#8622#0" expanded="true" />
+            <element signature="e#6043#8594#0" expanded="true" />
+            <element signature="e#6592#7356#0" expanded="true" />
+            <element signature="e#6847#7321#0" expanded="true" />
+            <element signature="e#7103#7282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/GameItem/subcomponentsTwoTabs/FormGameItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="109" column="42" lean-forward="true" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#FormGameItem#0" expanded="true" />
+            <element signature="e#2445#2507#0" expanded="true" />
+            <element signature="e#2561#2643#0" expanded="true" />
+            <element signature="e#3372#5172#0" expanded="true" />
+            <element signature="e#3396#3437#0" expanded="true" />
+            <element signature="e#3682#3764#0" expanded="true" />
+            <element signature="e#4195#5129#0" expanded="true" />
+            <element signature="e#4223#4273#0" expanded="true" />
+            <element signature="n#!!block;n#render#0;n#FormGameItem#0" expanded="true" />
+            <element signature="e#5222#18098#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/GameItem/subcomponentsTwoTabs/RowShowGameItem/RowShowGameItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1463">
+          <caret line="140" column="20" lean-forward="true" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
+          <folding>
+            <element signature="e#100#285#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#RowShowGameItem#0" expanded="true" />
+            <element signature="e#1270#1310#0" expanded="true" />
+            <element signature="e#1650#2816#0" expanded="true" />
+            <element signature="e#1835#1917#0" expanded="true" />
+            <element signature="n#!!block;n#handelHover#0;n#RowShowGameItem#0" expanded="true" />
+            <element signature="n#!!block;n#handelHoveOut#0;n#RowShowGameItem#0" expanded="true" />
+            <element signature="e#4227#7135#0" expanded="true" />
+            <element signature="e#7156#7927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/dashboards/RecentOrders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#356#549#0" expanded="true" />
+            <element signature="e#417#536#0" expanded="true" />
+            <element signature="e#575#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/Actio exp/subcomponents/UpdateAcionsWithKeys.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="88" column="8" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#UpdateAcionsWithKeys#0" expanded="true" />
+            <element signature="e#1519#1561#0" expanded="true" />
+            <element signature="e#1770#1811#0" expanded="true" />
+            <element signature="e#2014#2096#0" expanded="true" />
+            <element signature="e#2451#2932#0" expanded="true" />
+            <element signature="n#!!block;n#render#0;n#UpdateAcionsWithKeys#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Resource Management/Exp/ExpMain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="119" lean-forward="true" selection-start-line="4" selection-start-column="119" selection-end-line="4" selection-end-column="119" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#473#971#0" expanded="true" />
+            <element signature="e#531#955#0" expanded="true" />
+            <element signature="e#773#900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/GameCurrency/subcomponentsTwoTabs/FormGameCurrency.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="156" column="29" lean-forward="true" selection-start-line="156" selection-start-column="29" selection-end-line="156" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#FormGameCurrency#0" expanded="true" />
+            <element signature="e#2537#2619#0" expanded="true" />
+            <element signature="e#2731#3286#0" expanded="true" />
+            <element signature="e#3183#3231#0" expanded="true" />
+            <element signature="e#3486#3527#0" expanded="true" />
+            <element signature="e#3554#3764#0" expanded="true" />
+            <element signature="e#4406#4456#0" expanded="true" />
+            <element signature="e#5248#5360#0" expanded="true" />
+            <element signature="e#5276#5326#0" expanded="true" />
+            <element signature="n#!!block;n#render#0;n#FormGameCurrency#0" expanded="true" />
+            <element signature="e#5463#19794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/GameCurrency/subcomponentsTwoTabs/RowShowGameMode/RowShowGameMode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="105" column="13" lean-forward="true" selection-start-line="96" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!block;n#constructor#0;n#RowShowGameMode#0" expanded="true" />
+            <element signature="e#1032#1223#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#RowShowGameMode#0" expanded="true" />
+            <element signature="e#1310#1349#0" expanded="true" />
+            <element signature="e#1874#1956#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/css/sass/_gogo.style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="8697" column="1" selection-start-line="8697" selection-start-column="1" selection-end-line="8697" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/LOOTBOX/SubComponents/FromAddLootBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="134" column="39" lean-forward="true" selection-start-line="134" selection-start-column="39" selection-end-line="134" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#FromAddLootBox#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#FromAddLootBox#0" expanded="true" />
+            <element signature="e#1966#2060#0" expanded="true" />
+            <element signature="e#2124#2206#0" expanded="true" />
+            <element signature="e#2477#2985#0" expanded="true" />
+            <element signature="e#2801#2851#0" expanded="true" />
+            <element signature="e#3108#3149#0" expanded="true" />
+            <element signature="e#3176#3302#0" expanded="true" />
+            <element signature="e#3205#3287#0" expanded="true" />
+            <element signature="e#4155#4213#0" expanded="true" />
+            <element signature="n#!!block;n#render#0;n#FromAddLootBox#0" expanded="true" />
+            <element signature="e#4821#14141#0" expanded="true" />
+            <element signature="e#4976#14102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/LOOTBOX/SubComponents/RowShowLootBox/RowShowEachItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#render#0;n#RowShowEachItem#0" expanded="true" />
+            <element signature="e#1462#2870#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/LOOTBOX/SubComponents/RowShowLootBox/ShowEachItem/ShowEachItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+          <folding>
+            <element signature="e#225#410#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#ShowEachItem#0" expanded="true" />
+            <element signature="e#1168#1431#0" expanded="true" />
+            <element signature="e#1217#1408#0" expanded="true" />
+            <element signature="e#1499#1686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/LOOTBOX/SubComponents/RowShowLootBox/ShowEachItem/ShowLootBoxInItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="75" column="34" lean-forward="true" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
+          <folding>
+            <element signature="e#189#237#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#ShowLootBoxInItem#0" expanded="true" />
+            <element signature="e#970#1056#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#ShowLootBoxInItem#0" expanded="true" />
+            <element signature="n#!!block;n#toggleTab#0;n#ShowLootBoxInItem#0" expanded="true" />
+            <element signature="e#1388#1482#0" expanded="true" />
+            <element signature="e#1426#1473#0" expanded="true" />
+            <element signature="e#1545#1592#0" expanded="true" />
+            <element signature="e#1744#1826#0" expanded="true" />
+            <element signature="n#!!block;n#render#0;n#ShowLootBoxInItem#0" expanded="true" />
+            <element signature="e#2570#5522#0" expanded="true" />
+            <element signature="e#2600#5496#0" expanded="true" />
+            <element signature="e#2668#4676#0" expanded="true" />
+            <element signature="e#2716#3015#0" expanded="true" />
+            <element signature="e#2798#2984#0" expanded="true" />
+            <element signature="e#3040#3214#0" expanded="true" />
+            <element signature="e#3240#4648#0" expanded="true" />
+            <element signature="e#3312#3746#0" expanded="true" />
+            <element signature="e#3376#3531#0" expanded="true" />
+            <element signature="e#3564#3711#0" expanded="true" />
+            <element signature="e#3775#4218#0" expanded="true" />
+            <element signature="e#3839#3988#0" expanded="true" />
+            <element signature="e#4021#4183#0" expanded="true" />
+            <element signature="e#4247#4611#0" expanded="true" />
+            <element signature="e#4311#4575#0" expanded="true" />
+            <element signature="e#4697#5468#0" expanded="true" />
+            <element signature="e#4776#4911#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Const.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/LOOTBOX/SubComponents/RowShowLootBox/ShowEachItem/subcomponent/AddItemInLootBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+          <folding>
+            <element signature="e#231#257#0" expanded="true" />
+            <element signature="e#806#883#0" expanded="true" />
+            <element signature="e#976#1132#0" expanded="true" />
+            <element signature="e#1151#1319#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#AddItemInLootBox#0" expanded="true" />
+            <element signature="e#1571#1820#0" expanded="true" />
+            <element signature="e#1991#2073#0" expanded="true" />
+            <element signature="e#2195#3418#0" expanded="true" />
+            <element signature="n#!!block;n#handelSubmit#0;n#AddItemInLootBox#0" expanded="true" />
+            <element signature="e#5430#5512#0" expanded="true" />
+            <element signature="n#!!block;n#currencySubmit#0;n#AddItemInLootBox#0" expanded="true" />
+            <element signature="e#7532#7614#0" expanded="true" />
+            <element signature="n#!!block;n#handelChange#0;n#AddItemInLootBox#0" expanded="true" />
+            <element signature="e#9222#9304#0" expanded="true" />
+            <element signature="e#10876#11137#0" expanded="true" />
+            <element signature="n#!!block;n#render#0;n#AddItemInLootBox#0" expanded="true" />
+            <element signature="e#12581#12722#0" expanded="true" />
+            <element signature="e#13547#20073#0" expanded="true" />
+            <element signature="e#14320#18184#0" expanded="true" />
+            <element signature="e#14396#18152#0" expanded="true" />
+            <element signature="e#14464#18117#0" expanded="true" />
+            <element signature="e#14517#18076#0" expanded="true" />
+            <element signature="e#14564#18031#0" expanded="true" />
+            <element signature="e#14619#14767#0" expanded="true" />
+            <element signature="e#14812#15793#0" expanded="true" />
+            <element signature="e#14930#15072#0" expanded="true" />
+            <element signature="e#15121#15736#0" expanded="true" />
+            <element signature="e#15838#16833#0" expanded="true" />
+            <element signature="e#16879#17865#0" expanded="true" />
+            <element signature="e#16934#17813#0" expanded="true" />
+            <element signature="e#17327#17698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/LOOTBOX/SubComponents/ShowLootBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#ShowLootBox#0" expanded="true" />
+            <element signature="e#651#733#0" expanded="true" />
+            <element signature="n#!!block;n#handelClick#0;n#ShowLootBox#0" expanded="true" />
+            <element signature="e#1454#1505#0" expanded="true" />
+            <element signature="n#!!block;n#handelback#0;n#ShowLootBox#0" expanded="true" />
+            <element signature="e#1612#1649#0" expanded="true" />
+            <element signature="n#!!block;n#render#0;n#ShowLootBox#0" expanded="true" />
+            <element signature="e#1923#2287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/LOOTBOX/SubComponents/RowShowLootBox/RowShowLootBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="173" column="42" selection-start-line="173" selection-start-column="42" selection-end-line="173" selection-end-column="42" />
+          <folding>
+            <element signature="e#100#285#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#RowShowLootBox#0" expanded="true" />
+            <element signature="e#1032#1071#0" expanded="true" />
+            <element signature="e#1381#2542#0" expanded="true" />
+            <element signature="e#1606#1688#0" expanded="true" />
+            <element signature="e#1865#2499#0" expanded="true" />
+            <element signature="e#3379#3808#0" expanded="true" />
+            <element signature="e#3555#3773#0" expanded="true" />
+            <element signature="e#3898#4118#0" expanded="true" />
+            <element signature="e#4231#4721#0" expanded="true" />
+            <element signature="e#4303#4474#0" expanded="true" />
+            <element signature="e#4515#4678#0" expanded="true" />
+            <element signature="e#4758#5258#0" expanded="true" />
+            <element signature="e#4830#4995#0" expanded="true" />
+            <element signature="e#5036#5215#0" expanded="true" />
+            <element signature="e#5295#5707#0" expanded="true" />
+            <element signature="e#5367#5663#0" expanded="true" />
+            <element signature="e#5847#6678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Resource Management/LootBox/LootBoxMain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="14" lean-forward="true" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#609#725#0" expanded="true" />
+            <element signature="e#738#856#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Resource Management/Shop/ShopMain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#500#975#0" expanded="true" />
+            <element signature="e#558#959#0" expanded="true" />
+            <element signature="e#657#773#0" expanded="true" />
+            <element signature="e#786#904#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constants/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="111" selection-start-line="111" selection-end-line="149" selection-end-column="6" />
+          <folding>
+            <element signature="e#19#3900#0" expanded="true" />
+            <element signature="e#194#3894#0" expanded="true" />
+            <element signature="e#210#813#0" expanded="true" />
+            <element signature="e#367#799#0" expanded="true" />
+            <element signature="e#389#571#0" expanded="true" />
+            <element signature="e#593#777#0" expanded="true" />
+            <element signature="e#827#1442#0" expanded="true" />
+            <element signature="e#992#1428#0" expanded="true" />
+            <element signature="e#1014#1200#0" expanded="true" />
+            <element signature="e#1222#1410#0" expanded="true" />
+            <element signature="e#1456#2055#0" expanded="true" />
+            <element signature="e#1613#2041#0" expanded="true" />
+            <element signature="e#1635#1817#0" expanded="true" />
+            <element signature="e#1839#2023#0" expanded="true" />
+            <element signature="e#2059#2681#0" expanded="true" />
+            <element signature="e#2211#2667#0" expanded="true" />
+            <element signature="e#2233#2428#0" expanded="true" />
+            <element signature="e#2450#2649#0" expanded="true" />
+            <element signature="e#2695#3290#0" expanded="true" />
+            <element signature="e#2850#3276#0" expanded="true" />
+            <element signature="e#2872#3053#0" expanded="true" />
+            <element signature="e#3075#3258#0" expanded="true" />
+            <element signature="e#3304#3883#0" expanded="true" />
+            <element signature="e#3451#3869#0" expanded="true" />
+            <element signature="e#3473#3650#0" expanded="true" />
+            <element signature="e#3672#3851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#490#1979#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+            <element signature="n#!!block;n#render#0;n#App#0" expanded="true" />
+            <element signature="e#1401#2609#0" expanded="true" />
+            <element signature="e#1433#2596#0" expanded="true" />
+            <element signature="e#1557#2572#0" expanded="true" />
+            <element signature="e#1678#2544#0" expanded="true" />
+            <element signature="e#1742#2520#0" expanded="true" />
+            <element signature="e#1767#2496#0" expanded="true" />
+            <element signature="e#1935#2095#0" expanded="true" />
+            <element signature="e#2114#2264#0" expanded="true" />
+            <element signature="e#2283#2427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Resource Management/Game Mode/subcomponents-twoTabs/FormGameMode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="94" column="37" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#FormGameMode#0" expanded="true" />
+            <element signature="e#2346#2428#0" expanded="true" />
+            <element signature="e#3152#3974#0" expanded="true" />
+            <element signature="n#!!block;n#render#0;n#FormGameMode#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Resource Management/Game Currency/GameCurrencyMain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#489#965#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Resource Management/Game Mode/subcomponents-twoTabs/ShowGameMode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="45" column="233" selection-start-line="45" selection-start-column="137" selection-end-line="45" selection-end-column="233" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#ShowGameMode#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#ShowGameMode#0" expanded="true" />
+            <element signature="e#589#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Resource Management/Game Mode/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#526#643#0" expanded="true" />
+            <element signature="e#656#774#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Resource Management/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+            <element signature="n#!!block;n#render#0;n#Index#0" expanded="true" />
+            <element signature="e#875#2324#0" expanded="true" />
+            <element signature="e#903#2299#0" expanded="true" />
+            <element signature="e#959#2276#0" expanded="true" />
+            <element signature="e#1033#2244#0" expanded="true" />
+            <element signature="e#1170#1345#0" expanded="true" />
+            <element signature="e#1374#1557#0" expanded="true" />
+            <element signature="e#1586#1761#0" expanded="true" />
+            <element signature="e#1790#1954#0" expanded="true" />
+            <element signature="e#1983#2156#0" expanded="true" />
+            <element signature="e#2292#2465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Resource Management/Game Items/GameItemsMain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="119" lean-forward="true" selection-start-line="7" selection-start-column="119" selection-end-line="7" selection-end-column="119" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#470#946#0" expanded="true" />
+            <element signature="e#528#930#0" expanded="true" />
+            <element signature="e#627#744#0" expanded="true" />
+            <element signature="e#757#875#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/GameCurrency/subcomponentsTwoTabs/ShowGameCurrency.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="47" column="139" lean-forward="true" selection-start-line="47" selection-start-column="139" selection-end-line="47" selection-end-column="235" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#ShowGameCurrency#0" expanded="true" />
+            <element signature="e#523#605#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RosourceManagement/GameItem/subcomponentsTwoTabs/ShowGameItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#ShowGameItem#0" expanded="true" />
+            <element signature="e#509#591#0" expanded="true" />
+            <element signature="e#1388#1544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
