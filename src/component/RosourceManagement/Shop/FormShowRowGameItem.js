@@ -78,13 +78,13 @@ class FormShowRowGameItem extends Component {
                         <p className="list-item-heading"><span>ChanceType : </span>{order.ChanceType}</p>
                         <p className="list-item-heading"><span>ItemType : </span>{order.ItemType}</p>
                         <p className="list-item-heading"><span>ImageUrl : </span>{order.ImageUrl}</p>
-                        <p className="list-item-heading"><span>Name : </span >{order._id}</p>
-                        {/*<p className="list-item-heading"><span>Name : </span >{order.Name}</p>*/}
+                        {/*<p className="list-item-heading"><span>Name : </span >{order._id}</p>*/}
+                        <p className="list-item-heading"><span>Name : </span >{order.Name}</p>
                         <p className="list-item-heading"><span>Tag : </span>{order.Tag}</p>
                         <p className="list-item-heading"><span>Key : </span>{order.Key}</p>
-                        <div className="text-primary text-small font-weight-medium d-none d-sm-block">
-                            <span>Update_at:</span> {order.Update_at.slice(0, 10)}
-                        </div>
+                        {/*<div className="text-primary text-small font-weight-medium d-none d-sm-block">*/}
+                            {/*<span>Update_at:</span> {order.Update_at.slice(0, 10)}*/}
+                        {/*</div>*/}
                     </div>
                      </div>
               </div>

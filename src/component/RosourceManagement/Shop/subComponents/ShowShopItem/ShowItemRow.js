@@ -18,6 +18,7 @@ import RowShowShow from "./RowShowShow";
 import axios from "axios";
 import NotificationManager from "../../../../../components/common/react-notifications/NotificationManager";
 import {TweenMax} from "gsap/TweenMax";
+import * as Const from "../../../../Const";
 var classNames = require('classnames');
 
 
@@ -61,22 +62,30 @@ class ShowItemRow extends Component {
         console.log(id);
         // alert(`${Name} is deleted`);
         let headers = {
-            'Id': "5d1870f09d79a3cc6e224e59",
-            'Token': "a698d224f32b856f7b066792ca544b875a28478081af5e049f834bfa3d995179"
+            'Id': `${Const.ID}`,
+            'Token': `${Const.Token}`
         };
-        axios.get(`https://resource.themaddays.com/admin/shop/items/delete/${id}` , {headers:headers}).then(responsive=>
+        axios.get(`${Const.URL}admin/shop/items/delete/${id}` , {headers:headers}).then(responsive=>
         {
 
             NotificationManager.success(
-                "Success message",
-                "Title here",
+                "congratulation",
+                "Shop Item deleted",
                 3000,
                 null,
                 null,
                 "success"
             );
-            const {Description}=responsive.data;
-            console.log(Description);
+
+            let id=this.state.id;
+            const $el = document.getElementById(`${id}`);
+            const duration = 2;
+            const from = { opacity: 0};
+            TweenMax.to($el, duration, from);
+            setTimeout(() => {
+                $el.remove();
+            }, 3000)
+
             // let DES=JSON.parse(Description);
             // console.log(DES)
             // this.props.inprogress(DES);
@@ -138,7 +147,7 @@ class ShowItemRow extends Component {
         return (
             <Fragment>
 
-                <Colxx xxs="12" lg="4" className="mb-4 rowDelay">
+                <Colxx xxs="12" lg="4" className="mb-4 rowDelay" id={this.state.id}>
                     <Card className="mb-4">
                         {/*<div className="position-absolute card-top-buttons"  onClick={this.toggle}>*/}
                             {/*<Button outline color={"white"} className="icon-button">*/}

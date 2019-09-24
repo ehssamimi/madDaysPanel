@@ -7,6 +7,7 @@ import axios from "axios";
 import NotificationManager from "../../../../../../components/common/react-notifications/NotificationManager";
 import IntlMessages from "../../../../../../helpers/IntlMessages";
 import {TweenMax, Bounce, TimelineLite} from "gsap/TweenMax";
+import * as Const from "../../../../../Const";
 var classNames = require('classnames');
 
 
@@ -36,21 +37,21 @@ class RowEachItem extends Component {
         let LootBoxId=id;
         let ItemId=order._id;
         let headers = {
-            'Id': "5d1870f09d79a3cc6e224e59",
-            'Token': "a698d224f32b856f7b066792ca544b875a28478081af5e049f834bfa3d995179"
+            'Id': `${Const.ID}`,
+            'Token': `${Const.Token}`
         };
         let form = new FormData();
         form.append('ItemId', ItemId);
         form.append('LootBoxId', LootBoxId);
 
-        axios.post(`https://resource.themaddays.com/admin/lootbox/items/delete` ,form, {headers:headers}).then(responsive=>
+        axios.post(`${Const.URL}admin/lootbox/items/delete` ,form, {headers:headers}).then(responsive=>
         {
             const {Description}=responsive.data;
             console.log(Description);
             if (Description==="D"){
                 NotificationManager.success(
-                    "Game Mode",
-                    "Game Mode is add",
+                    "congratulation",
+                    "Game Mode item delete",
                     3000,
                     null,
                     null,
@@ -58,7 +59,6 @@ class RowEachItem extends Component {
                 );
                 this.toggle();
                 setTimeout(function(){window.location.reload();}, 3000);
-
 
             }
 

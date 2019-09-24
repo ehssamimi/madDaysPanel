@@ -21,6 +21,7 @@ import Select from "react-select";
 import {Colxx} from "../../../../../../../components/common/CustomBootstrap";
 import CustomSelectInput from "../../../../../../../components/common/CustomSelectInput";
 import * as Const from "../../../../../../Const";
+import {Field} from "formik";
 
 
 const options = [
@@ -44,7 +45,7 @@ class AddItemInLootBox extends Component {
     constructor(props) {
         super(props);
         this.state={
-            Device:[], DATA:[],value:"n",dict:{},DefaultData:[],tagKind: "",chanceType:"",originalData:[],changer:"",rightData:[],selectedOption: "",
+            Device:[], DATA:[],value:"a",dict:{},DefaultData:[],tagKind: "",chanceType:"",originalData:[],changer:"",rightData:[],selectedOption: "",
             selectData:[],currencyData:[],dictCurrency:{},currencyValue:'',mainType:[]
 
         }
@@ -64,9 +65,11 @@ class AddItemInLootBox extends Component {
 
             let index;let Device=[];
             let Data=JSON.parse(Description);
+
+            // console.log('this is Data from search');
             // console.log(Data);
             for (index in Data){
-                Device.push({title:Data[index].Name ,id:Data[index]._id,Tag:Data[index].Tag,ChanceType:Data[index].ChanceType})
+                Device.push({title:Data[index].Name ,id:Data[index]._id,Tag:Data[index].Tag,ChanceType:Data[index].ChanceType,Key:Data[index].Key})
             }
             const result = Data.filter(word => word.Tag ==="Male");
             // console.log(result);
@@ -74,7 +77,7 @@ class AddItemInLootBox extends Component {
 
             let dict = {};
             for (index in Data){
-                let id =Data[index].Name;
+                let id =Data[index].Key;
                 let Value =Data[index]._id;
                     dict[id] = Value;
                     // dict[Value] = id;
@@ -84,7 +87,7 @@ class AddItemInLootBox extends Component {
             //     DATA.push({name: item.title})
             // });
             Device.map(item => {
-                DATA.push({name: item.id})
+                DATA.push({name: item.Key})
             });
             this.setState({
                 Device,
@@ -142,12 +145,23 @@ class AddItemInLootBox extends Component {
     handelSubmit(e){
         e.preventDefault();
         let{dict,value}=this.state;
-        // console.log(dict);console.log(value);console.log(typeof (dict)); console.log(this.state.value);console.log(ItemId);
+
+        // console.log('dict');
+        // console.log(dict);
+        // console.log('value');
+        // console.log(value);
+        // console.log(typeof (dict)); console.log(this.state.value)
+
+        // function getKeyByValue(object, value) {
+        //     return Object.keys(object).find(key => object[key] === value);
+        // }
         function getKeyByValue(object, value) {
-            return Object.keys(object).find(key => object[key] === value);
+            return Object.values(object).find(key => object[value] === key);
         }
-        // let ItemId=getKeyByValue(dict,value);
-        let ItemId=value;
+
+        let ItemId=getKeyByValue(dict,value);
+        console.log(ItemId);
+        // let ItemId=value;
         let LootBoxId=this.props.id;
         let headers = {
             'Id': `${Const.ID}`,
@@ -280,12 +294,12 @@ class AddItemInLootBox extends Component {
                 let Data=JSON.parse(Description);
 
                 for (index in Data){
-                    Device.push({title:Data[index].Name ,id:Data[index]._id,Tag:Data[index].Tag,ChanceType:Data[index].ChanceType})
+                    Device.push({title:Data[index].Name ,id:Data[index]._id,Tag:Data[index].Tag,ChanceType:Data[index].ChanceType,Key:Data[index].Key})
                 }
 
                 let dict = {};
                 for (index in Data){
-                    let id =Data[index].Name;
+                    let id =Data[index].Key;
                     let Value =Data[index]._id;
                     dict[id] = Value;
                     // dict[Value] = id;
@@ -294,7 +308,7 @@ class AddItemInLootBox extends Component {
                 let DATA=[];
                 Device.map(item => {
                     // DATA.push({name: item.title})
-                    DATA.push({name: item.id})
+                    DATA.push({name: item.Key})
                 });
                 this.setState({
                     Device,
@@ -349,7 +363,7 @@ class AddItemInLootBox extends Component {
             allData=Device.filter(word => word.ChanceType === chanceType.value && word.Tag === tagKind.value);
             allData.map(item => {
                 // rightData.push({name: item.title})
-                rightData.push({name: item.id})
+                rightData.push({name: item.Key})
             });
             // console.log(rightData);
 
@@ -360,7 +374,7 @@ class AddItemInLootBox extends Component {
                     allData=Device.filter(word => word.Tag === tagKind.value);
                     allData.map(item => {
                         // rightData.push({name: item.title})
-                        rightData.push({name: item.id})
+                        rightData.push({name: item.Key})
                     });
                     // console.log(rightData);
 
@@ -370,7 +384,7 @@ class AddItemInLootBox extends Component {
                     allData=Device.filter(word => word.ChanceType === chanceType.value);
                     allData.map(item => {
                         // rightData.push({name: item.title})
-                        rightData.push({name: item.id})
+                        rightData.push({name: item.Key})
                     });
                     // console.log(rightData);
 
@@ -391,18 +405,21 @@ class AddItemInLootBox extends Component {
         return (
             <div >
                 <Colxx xxs="12"  className="mb-5">
-                    <label>
-                        <IntlMessages id="form-components.state-single" />
-                    </label>
-                    <Select
-                        components={{ Input: CustomSelectInput }}
-                        className="react-select"
-                        classNamePrefix="react-select"
-                        name="form-field-name"
-                        value={this.state.selectedOption}
-                        onChange={this.handleChange}
-                        options={this.state.selectData}
-                    />
+
+                    <FormGroup className="form-group has-float-label position-relative mt-4">
+                        <label>
+                            <IntlMessages id="Select Type" />
+                        </label>
+                        <Select
+                            components={{ Input: CustomSelectInput }}
+                            className="react-select"
+                            classNamePrefix="react-select"
+                            name="form-field-name"
+                            value={this.state.selectedOption}
+                            onChange={this.handleChange}
+                            options={this.state.selectData}
+                        />
+                    </FormGroup>
                 </Colxx>
 
 

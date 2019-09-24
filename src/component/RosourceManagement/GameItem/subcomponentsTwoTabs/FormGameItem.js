@@ -120,7 +120,6 @@ class FormGameItem extends Component {
             TagKind: values.TagKind.value,
             ChanceType: values.ChanceType.value,
             Name: values.Name.value,
-
         };
         console.log(payload);
         let headers = {

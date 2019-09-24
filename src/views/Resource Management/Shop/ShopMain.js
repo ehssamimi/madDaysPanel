@@ -2,10 +2,10 @@ import React, { Suspense } from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 
 const Add = React.lazy(() =>
-    import(/* webpackChunkName: "start" */ './../../../component/RosourceManagement/Shop/subComponents/FormAddShopItem')
+    import(/* webpackChunkName: "start" */ './FormAddShopMain/FormAddShopMain')
 );
 const Show = React.lazy(() =>
-    import(/* webpackChunkName: "start" */ './../../../component/RosourceManagement/Shop/subComponents/FormAddShopItem')
+    import(/* webpackChunkName: "start" */ './../../../component/RosourceManagement/Shop/subComponents/ShowShopItem')
 );
 
 const ShopMain = ({ match }) => (

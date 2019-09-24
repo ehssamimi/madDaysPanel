@@ -4,6 +4,8 @@ import {Row} from "reactstrap";
 import ShoeGameRowMode from "../../GameMode/subcomponents-twoTabs/ShoeRowGameMode/ShoeGameRowMode";
 import ShowItemRow from "./ShowShopItem/ShowItemRow";
 import {Power4, TweenMax} from "gsap/TweenMax";
+import * as Const from "../../../Const";
+
 
 
 class ShowShopItem extends Component {
@@ -16,11 +18,10 @@ class ShowShopItem extends Component {
     componentDidMount(){
         // classNames({ 'foo-bar': true }); // => 'foo-bar'
         let headers = {
-            'Id': "5d1870f09d79a3cc6e224e59",
-            'Token': "a698d224f32b856f7b066792ca544b875a28478081af5e049f834bfa3d995179"
+            'Id': `${Const.ID}`,
+            'Token': `${Const.Token}`
         };
-        console.log(headers);
-        axios.get(`https://resource.themaddays.com/shop/get/all` , {headers:headers}).then(responsive=>
+        axios.get(`${Const.URL}shop/get/all` , {headers:headers}).then(responsive=>
         {
             const {Description}=responsive.data;
             let DES=JSON.parse(Description);

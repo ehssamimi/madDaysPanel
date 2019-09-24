@@ -96,13 +96,13 @@ const data = [
                 subs: [
                     {
                         icon: "simple-icon-arrow-right",
-                        label: "Add",
+                        label: "add",
                         to: "/resource-management/shop/add"
                     },
                     {
                         icon: "simple-icon-arrow-right",
-                        label: "Show",
-                        to: "/resource-management/show/show"
+                        label: "show",
+                        to: "/resource-management/shop/show"
                     }
                 ]
             }

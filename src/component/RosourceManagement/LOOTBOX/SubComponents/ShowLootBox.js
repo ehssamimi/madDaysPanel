@@ -31,9 +31,10 @@ class ShowLootBox extends Component {
             const {Description}=responsive.data;
             //
             let DES=JSON.parse(Description);
-            // console.log(DES)
+            // console.log('DES')
+            // console.log(DES.Data)
             this.setState({
-                modes:DES
+                modes:DES.Data
             })
 
         }).catch(error=>{console.log(error)});

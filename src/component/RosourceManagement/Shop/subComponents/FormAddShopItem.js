@@ -26,6 +26,8 @@ import AutoSuggestEdit from "../../test/AutoSuggestEdit";
 import CustomSelectInput from "../../../../components/common/CustomSelectInput";
 import {TweenMax} from "gsap/TweenMax";
 import FormShowRowGameItem from "../FormShowRowGameItem";
+import * as Const from "../../../Const";
+
 const SignupSchema = Yup.object().shape({
     Cost: Yup.number()
         .required("Cost is required!"),
@@ -89,10 +91,10 @@ class FormAddShopItem extends Component {
         let {value}=this.state;
 
         let headers = {
-            'Id': "5d1870f09d79a3cc6e224e59",
-            'Token': "a698d224f32b856f7b066792ca544b875a28478081af5e049f834bfa3d995179"
+            'Id': `${Const.ID}`,
+            'Token': `${Const.Token}`
         };
-        axios.get(`https://resource.themaddays.com/admin/gameitem/search/${value}`,{headers:headers}).then(responsive=>
+        axios.get(`${Const.URL}admin/gameitem/search/${value}`,{headers:headers}).then(responsive=>
         {
             const {Description} = responsive.data;
             // console.log(`https://resource.themaddays.com/admin/gameitem/search/${value}`);
@@ -101,7 +103,7 @@ class FormAddShopItem extends Component {
             let Data=JSON.parse(Description);
             console.log(Data);
             for (index in Data){
-                Device.push({title:Data[index].Name ,id:Data[index]._id,Tag:Data[index].Tag,ChanceType:Data[index].ChanceType})
+                Device.push({title:Data[index].Name ,id:Data[index]._id,Tag:Data[index].Tag,ChanceType:Data[index].ChanceType,Key:Data[index].Key})
             }
             const result = Data.filter(word => word.Tag ==="Male");
             console.log(result);
@@ -109,7 +111,7 @@ class FormAddShopItem extends Component {
 
             let dict = {};
             for (index in Data){
-                let id =Data[index].Name;
+                let id =Data[index].Key;
                 let Value =Data[index]._id;
                 // dict[id] = Value;
                 dict[Value] = id;
@@ -120,7 +122,7 @@ class FormAddShopItem extends Component {
 
             Device.map(item => {
                 // DATA.push({name: item.title})
-                DATA.push({name: item.id})
+                DATA.push({name: item.Key})
             });
             this.setState({
                 Device,
@@ -141,10 +143,10 @@ class FormAddShopItem extends Component {
 
         if (value.length>0) {
             let headers = {
-                'Id': "5d1870f09d79a3cc6e224e59",
-                'Token': "a698d224f32b856f7b066792ca544b875a28478081af5e049f834bfa3d995179"
+                'Id': `${Const.ID}`,
+                'Token': `${Const.Token}`
             };
-            axios.get(`https://resource.themaddays.com/admin/gameitem/search/${value}`,{headers:headers}).then(responsive=>
+            axios.get(`${Const.URL}admin/gameitem/search/${value}`,{headers:headers}).then(responsive=>
             {
                 const {Description} = responsive.data;
                 // console.log(`https://resource.themaddays.com/admin/gameitem/search/${value}`);
@@ -155,13 +157,13 @@ class FormAddShopItem extends Component {
                 console.log(Data)
 
                 for (index in Data){
-                    Device.push({title:Data[index].Name ,id:Data[index]._id,Tag:Data[index].Tag,ChanceType:Data[index].ChanceType})
+                    Device.push({title:Data[index].Name ,id:Data[index]._id,Tag:Data[index].Tag,ChanceType:Data[index].ChanceType,Key:Data[index].Key})
                 }
 
                 let dict = {};
                        let {itemList}=this.state;
                 for (index in itemList){
-                    let id =itemList[index].Name;
+                    let id =itemList[index].Key;
                     let Value =itemList[index]._id;
                     // dict[id] = Value;
                     dict[Value] = id;
@@ -172,7 +174,7 @@ class FormAddShopItem extends Component {
                 let DATA=[];
                 Device.map(item => {
                     // DATA.push({name: item.title})
-                    DATA.push({name: item.id})
+                    DATA.push({name: item.Key})
                 });
                 this.setState({
                     Device,
@@ -202,8 +204,8 @@ class FormAddShopItem extends Component {
         console.log("add some item list");
         console.log(originalData);
      //
-     // console.log("originalData");
-     // console.log(originalData);
+     console.log("originalData");
+     console.log(originalData);
         // let itemList=[];
         // itemList.push(originalData[0]);
         this.setState({
@@ -308,11 +310,8 @@ class FormAddShopItem extends Component {
         console.log(this.state.value);
 
         let headers = {
-            // 'Id': localStorage.getItem('IdGameHandmade'),
-            // 'Token': localStorage.getItem('TokenGameHandmade')
-            'Id': "5d1870f09d79a3cc6e224e59",
-            'Token': "a698d224f32b856f7b066792ca544b875a28478081af5e049f834bfa3d995179"
-
+            'Id': `${Const.ID}`,
+            'Token': `${Const.Token}`
         };
         let{dict,value,ItemId}=this.state;
         // console.log(dict);
@@ -337,16 +336,19 @@ class FormAddShopItem extends Component {
         form.append('CostType', payload.CostType);
         form.append('Type', payload.ShopItem);
         form.append('GameListItem', string);
-        axios.post(`https://resource.themaddays.com/admin/shop/items/add` ,form, {headers:headers}).then(responsive=>
+        axios.post(`${Const.URL}admin/shop/items/add` ,form, {headers:headers}).then(responsive=>
         {
             this.setState({
                 loaderActive:false
             });
             const {Description}=responsive.data;
+            console.log('Description');
+            console.log(Description);
+
             if(Description === "d"){
                 NotificationManager.success(
-                    "Success message",
-                    "Title here",
+                    "congratulation",
+                    "add shop item",
                     3000,
                     null,
                     null,
@@ -394,7 +396,7 @@ class FormAddShopItem extends Component {
             // console.log("both");
             allData=Device.filter(word => word.ChanceType === chanceType.value && word.Tag === tagKind.value)
             allData.map(item => {
-                rightData.push({name: item._id})
+                rightData.push({name: item.Key})
             });
             // console.log(rightData);
 
@@ -404,7 +406,7 @@ class FormAddShopItem extends Component {
                     // console.log("tagKind");
                     allData=Device.filter(word => word.Tag === tagKind.value);
                     allData.map(item => {
-                        rightData.push({name: item._id})
+                        rightData.push({name: item.Key})
                     });
                     // console.log(rightData);
 
@@ -413,7 +415,7 @@ class FormAddShopItem extends Component {
                     // console.log("chanceType");
                     allData=Device.filter(word => word.ChanceType === chanceType.value);
                     allData.map(item => {
-                        rightData.push({name: item._id})
+                        rightData.push({name: item.Key})
                     });
                     // console.log(rightData);
 
